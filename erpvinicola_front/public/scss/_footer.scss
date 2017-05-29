@@ -1,0 +1,41 @@
+#footer {
+  padding: 3em;
+  background: $nav-bg;
+  .img-logo {
+
+      img{
+        width: 13em;
+        display: inline;
+      }
+  }
+
+  .img-logo-2 {
+    img{
+        width: 5em;
+        display: inline;
+        padding-bottom: 10px;
+      }
+    }  
+
+  .social {
+    padding: 1em 0;
+    p {
+      color: $white-default;
+      font-size: 1.2em;
+    }
+    i {
+      font-size: 1.2em;
+      color: $white-default;
+      margin: 0.3em 1.5em 0 1.5em;
+    }
+    .facebook {
+      font-size: 1.3em;
+    }
+    .whatsapp {
+      font-size: 1.3em;
+    }
+    .instagram {
+      font-size: 1.3em;
+    }
+  }
+}

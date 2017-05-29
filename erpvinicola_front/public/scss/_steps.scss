@@ -1,0 +1,32 @@
+#steps{
+    text-align: center;
+    color: #ffffff;
+    padding: 2em 0;
+    .step {
+        i {
+            width: 3em;
+            height: 3em;
+            border-radius: 50%;
+            font-size: 2.5em;
+            color: white;
+            padding: 1em;
+            &.one{
+                background-color: $marsala-default;
+            }
+            &.two{
+                background-color: $marsala-default;
+            }
+            &.tree{
+                background-color: $marsala-default;                
+
+            }
+            h4 {
+                color: white;
+                padding: 0.5em 0;
+            }
+            p {
+                color: white;
+            }
+        }
+    }
+}

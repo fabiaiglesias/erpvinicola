@@ -1,0 +1,117 @@
+#header {
+  position: relative;
+  height: 75%;
+  min-height: 75%;
+  background: $body-bg;
+  &.no-height {
+    height: auto;
+    min-height: auto;
+  }
+
+  .logo{
+    padding: 30px;
+    z-index: 3;
+    img{
+    width: 8em;
+    }
+  }
+
+.logo2 {
+  padding: 7px;
+  z-index: 3;
+  img {
+    width: 4.5em;
+  }
+}
+
+  .account {
+    padding: 5rem 0 0 15rem;
+    z-index: 3;
+    .glass {
+      border-left: 1px solid $marsala-default;
+    }
+
+  }
+
+  .navbar {
+    min-height: 3em;
+    z-index: 1;
+    background: $nav-bg;
+    border: none;
+
+    .navbar-nav {
+          li{
+                a{
+                      color: $white-default;
+                      text-transform: uppercase;
+                      font-weight: normal;
+                      font-size: 12px;
+                      &:hover, &:active {
+                        color: $marsala-default;
+
+                      }
+                  }
+                }
+
+              }
+            }
+    .carousel {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      min-height: 100%;
+      .carousel-inner {
+        min-height: 100%;
+        height: 100%;
+        .item{
+          min-height: 100%;
+          height: 100%;
+        }
+        .fill {
+          min-height: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+        }
+        .carousel-caption {
+          bottom: 25%;
+          left: 15%auto;
+          right: 15%;
+          h2 {
+            color: rgb(111, 111, 111);
+            font-weight: bold;
+          }
+          p {
+            color: rgb(47, 47, 47);
+            font-size: 1.5em;
+            padding: 1em 0;
+          }
+        }
+      }
+      .carousel-control {
+        &.left{
+          background: none;
+          i {
+            position: absolute;
+            top: 40%;
+            z-index: 5;
+            display: inline-block;
+            font-size: 2.5em;
+          }
+        }
+        &.right{
+          background: none;
+          i {
+            position: absolute;
+            top: 40%;
+            z-index: 5;
+            display: inline-block;
+            font-size: 2.5em;
+          }
+        }
+      }
+
+    }
+}

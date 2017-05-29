@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+html {
+  height: 100%;
+  min-height: 100%;
+  font-family: "Montserrat", sans-serif; }
+
+body {
+  height: 100%;
+  min-height: 100%;
+  background: #5c0527;
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+.btn-color-default {
+  background-color: #FCE0E6;
+  color: #9F9E9E; }
+  .btn-color-default:hover, .btn-color-default:active {
+    background-color: #9a585c;
+    color: #FCE0E6;
+    transition: .3s all; }
+
+.btn-marsala-default {
+  background-color: #9a585c;
+  color: #9F9E9E;
+  float: right; }
+  .btn-marsala-default:hover, .btn-marsala-default:active {
+    background-color: #FCE0E6;
+    color: #9a585c;
+    transition: .3s all; }
+
+.form-control:focus, .form-control:active, .form-control:hover {
+  box-shadow: none;
+  border-color: #9F9E9E; }
+
+.upper {
+  text-transform: uppercase !important; }
+
+.title {
+  font-size: 1.5em; }
+
+.subtitle {
+  padding: 0 0 1em 0;
+  display: block; }
+
+.bold {
+  font-weight: bold; }
+
+.block {
+  display: block; }
+
+.login-default {
+  color: #9F9E9E;
+  text-align: center; }
+
+.login-form {
+  color: #9F9E9E; }
+
+#header {
+  position: relative;
+  height: 75%;
+  min-height: 75%;
+  background: #5c0527; }
+  #header.no-height {
+    height: auto;
+    min-height: auto; }
+  #header .logo {
+    padding: 30px;
+    z-index: 3; }
+    #header .logo img {
+      width: 8em; }
+  #header .logo2 {
+    padding: 7px;
+    z-index: 3; }
+    #header .logo2 img {
+      width: 4.5em; }
+  #header .account {
+    padding: 5rem 0 0 15rem;
+    z-index: 3; }
+    #header .account .glass {
+      border-left: 1px solid #9a585c; }
+  #header .navbar {
+    min-height: 3em;
+    z-index: 1;
+    background: #FCE0E6;
+    border: none; }
+    #header .navbar .navbar-nav li a {
+      color: #9F9E9E;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 12px; }
+      #header .navbar .navbar-nav li a:hover, #header .navbar .navbar-nav li a:active {
+        color: #9a585c; }
+  #header .carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%; }
+    #header .carousel .carousel-inner {
+      min-height: 100%;
+      height: 100%; }
+      #header .carousel .carousel-inner .item {
+        min-height: 100%;
+        height: 100%; }
+      #header .carousel .carousel-inner .fill {
+        min-height: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center; }
+      #header .carousel .carousel-inner .carousel-caption {
+        bottom: 25%;
+        left: 15%auto;
+        right: 15%; }
+        #header .carousel .carousel-inner .carousel-caption h2 {
+          color: #6f6f6f;
+          font-weight: bold; }
+        #header .carousel .carousel-inner .carousel-caption p {
+          color: #2f2f2f;
+          font-size: 1.5em;
+          padding: 1em 0; }
+    #header .carousel .carousel-control.left {
+      background: none; }
+      #header .carousel .carousel-control.left i {
+        position: absolute;
+        top: 40%;
+        z-index: 5;
+        display: inline-block;
+        font-size: 2.5em; }
+    #header .carousel .carousel-control.right {
+      background: none; }
+      #header .carousel .carousel-control.right i {
+        position: absolute;
+        top: 40%;
+        z-index: 5;
+        display: inline-block;
+        font-size: 2.5em; }
+
+#footer {
+  padding: 3em;
+  background: #FCE0E6; }
+  #footer .img-logo img {
+    width: 13em;
+    display: inline; }
+  #footer .img-logo-2 img {
+    width: 5em;
+    display: inline;
+    padding-bottom: 10px; }
+  #footer .social {
+    padding: 1em 0; }
+    #footer .social p {
+      color: #9F9E9E;
+      font-size: 1.2em; }
+    #footer .social i {
+      font-size: 1.2em;
+      color: #9F9E9E;
+      margin: 0.3em 1.5em 0 1.5em; }
+    #footer .social .facebook {
+      font-size: 1.3em; }
+    #footer .social .whatsapp {
+      font-size: 1.3em; }
+    #footer .social .instagram {
+      font-size: 1.3em; }
+
+#products {
+  padding: 2em 0;
+  color: #9F9E9E; }
+  #products .cat .list-group {
+    border-right: 0px solid #ececec; }
+    #products .cat .list-group .list-group-item {
+      border: 0;
+      border-top: 1px solid #ececec; }
+      #products .cat .list-group .list-group-item:first-child {
+        border: 0; }
+      #products .cat .list-group .list-group-item a {
+        color: #9F9E9E;
+        text-transform: capitalize; }
+        #products .cat .list-group .list-group-item a:hover, #products .cat .list-group .list-group-item a:active {
+          color: #5c0527;
+          text-decoration: none; }
+  #products .list-pro .product_item {
+    margin: 1.3em 0; }
+    #products .list-pro .product_item .preview {
+      position: relative; }
+      #products .list-pro .product_item .preview img {
+        min-height: 13em;
+        max-height: 13em; }
+    #products .list-pro .product_item .info {
+      text-align: center;
+      border: 1px solid #ececec;
+      padding: 1em; }
+      #products .list-pro .product_item .info .price {
+        position: relative; }
+        #products .list-pro .product_item .info .price strong {
+          display: block;
+          padding: 1em 0; }
+
+#line {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  background: #FCE0E6; }
+
+#steps {
+  text-align: center;
+  color: #ffffff;
+  padding: 2em 0; }
+  #steps .step i {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    font-size: 2.5em;
+    color: white;
+    padding: 1em; }
+    #steps .step i.one {
+      background-color: #9a585c; }
+    #steps .step i.two {
+      background-color: #9a585c; }
+    #steps .step i.tree {
+      background-color: #9a585c; }
+    #steps .step i h4 {
+      color: white;
+      padding: 0.5em 0; }
+    #steps .step i p {
+      color: white; }
+
+#account {
+  padding-bottom: 15%; }
+  #account a {
+    text-decoration: none;
+    color: #9F9E9E; }
